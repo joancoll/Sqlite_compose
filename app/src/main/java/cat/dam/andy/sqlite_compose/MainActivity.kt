@@ -86,7 +86,6 @@ class MainActivity : ComponentActivity() {
                         dialogState = DialogState.Add
                     },
                     modifier = Modifier
-                        .padding(16.dp)
                         .align(Alignment.BottomEnd),
                     contentColor = MaterialTheme.colorScheme.onPrimary,
                     containerColor = MaterialTheme.colorScheme.primary
