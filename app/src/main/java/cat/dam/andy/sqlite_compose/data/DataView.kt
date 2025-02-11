@@ -1,4 +1,4 @@
-package cat.dam.andy.sqlite_compose
+package cat.dam.andy.sqlite_compose.data
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.lazy.LazyColumn
@@ -15,6 +15,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import cat.dam.andy.sqlite_compose.model.Item
 
 
 @Composable

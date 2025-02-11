@@ -1,10 +1,11 @@
-package cat.dam.andy.sqlite_compose
+package cat.dam.andy.sqlite_compose.data
 
 import android.content.ContentValues
 import android.content.Context
 import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
+import cat.dam.andy.sqlite_compose.model.Item
 
 
 class DatabaseHelper(context: Context) : SQLiteOpenHelper(context, DB_NAME, null, DB_VERSION) {
